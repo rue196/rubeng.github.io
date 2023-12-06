@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 .Ruben-Uriel-Gutierrez {
   color:rgb(165, 255, 240);
   font-weight: 250px;
@@ -6,14 +8,36 @@
   margin: 20px 10px;
   
 }
-
+header{
+  display:flex;
+  justify-content: space-between;
+  height: 50px;
+}
 .dropdown{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  position: relative;
+  position: absolute;
+  text-align: right;
+  display:none;
+  top: 30px;
+  left:0;
+  width: 100%;
+  height:calc(100vh - 50px)
+}
+ul{
+  list-style-type: none;
+  height:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul li{
+  padding: 5px;
+  margin-left: 10px;
+}
+li{
+  list-style-type: none;
 }
 .droptbtn{
-  text-align: center;
   text-decoration: none;
   font-weight: bold;
   color:rgb(165, 255, 240);
@@ -26,6 +50,9 @@
 }
 .link{
   text-align: center;
+  color:#aaf0fb;
+  text-shadow:1px 1px#46355a;
+
 }
 .droptbtn :hover{
   color:#46355a;
@@ -41,9 +68,13 @@
   box-shadow: 0px 2px 5px 0px rgb(0,0,0,.1);
   text-shadow: 2px 2px #46355a;
   display:none;
+  font-size: larger;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 button {
-  text-align: left;
   font-weight: bold;
   color: #aaf0fb;
   background-color:#1966ff8f;
@@ -57,6 +88,7 @@ button {
   font-weight: 250px;
   padding: 10px 20px;
   margin: 20px 10px;
+  width:fit-content;
 }
 .href{
     padding: 30px 20px;
@@ -73,7 +105,7 @@ a {
   cursor: pointer;
   padding:0;
   transition-duration: 5ms;
-
+ block-size:auto;
 }
 a :hover{
   color: #46355a;
@@ -88,10 +120,9 @@ a :hover{
     color: #aaf0fb;
     text-align: center;
     font-size: 30px;
-    font-family: Monaco;
-    font-weight: 100px;  
+    font-family: Monaco;  
     padding: 50px 20px 100px 10px;
-    margin: 20px 10px;
+    margin: auto;
     border:30px 10px;
     background: content-box ;
   text-shadow: 1px 1px 3px #46355a; 
@@ -128,14 +159,13 @@ body{
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     color:rgba(171, 254, 255, 0.75);
-    text-shadow: 2px 2px #46355ad8;
-    font-size: 60px;
+    text-shadow: 1px 1px #46355ad8;
+    font-size: 28px;
     font-weight:100px;
     padding: 10px 20px;
     margin: 20px 10px;
-
 }
 #grad {
     background-image: repeating-linear-gradient  linear-gradient(#1966ff, #d0fff2);
@@ -204,23 +234,21 @@ h1{
                        color-stop(0.44, rgb(117, 227, 255)),
                        color-stop(0.72, rgb(73,125,189)),
                        color-stop(0.86, rgb(32, 87, 255)));
-  }
-.center{
- 
-}
+  } 
  .container {
   position: relative; 
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 6px;
 }
 
 .image {
   display: block;
   width: 50%;
   height: auto;
-  margin-left: auto;
+    margin-left: auto;
   margin-right: auto;
   border-radius: 18px;
   
@@ -231,11 +259,12 @@ h1{
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #1966ff;
   overflow: hidden;
   width: 100%;
   height: 0;
   transition: .5s ease;
+  border-radius: 10px;
 }
 
 .container:hover .overlay {
@@ -245,7 +274,7 @@ h1{
 
 .text {
   white-space: nowrap; 
-  color: white;
+  color: #d0fff2;
   font-size: 20px;
   position: absolute;
   overflow: hidden;
@@ -254,4 +283,15 @@ h1{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-    
+span{
+  margin:auto;
+}
+
+@media only screen and (max-width:600px){
+  header nav {
+    display:none;
+  }
+  .dropdown{
+  display: block;
+}
+}
