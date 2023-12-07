@@ -6,7 +6,7 @@
   font-weight: 250px;
   padding: 10px 20px;
   margin: 20px 10px;
-  
+  pointer-events: auto;
 }
 header{
   display:flex;
@@ -14,21 +14,25 @@ header{
   height: 50px;
 }
 .dropdown{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  position: absolute;
-  text-align: right;
+  position:absolute;
   display:none;
-  top: 30px;
+  width:fit-content;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button#mybutton.dropbtn{
+  top:30px;
   left:0;
-  width: 100%;
-  height:calc(100vh - 50px)
+  height:calc(100vh - 50px);
+  width:100%;
+  position: absolute;
+  
 }
 ul{
   list-style-type: none;
   height:100%;
   display:flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: left;
 }
 ul li{
   padding: 5px;
@@ -67,12 +71,7 @@ li{
   border: radius 0.25rem;
   box-shadow: 0px 2px 5px 0px rgb(0,0,0,.1);
   text-shadow: 2px 2px #46355a;
-  display:none;
-  font-size: larger;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  width:100%;
 }
 button {
   font-weight: bold;
@@ -90,6 +89,7 @@ button {
   margin: 20px 10px;
   width:fit-content;
 }
+
 .href{
     padding: 30px 20px;
     Border: 10px 40px;
@@ -254,41 +254,12 @@ h1{
   
 }
 
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #1966ff;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-  border-radius: 10px;
-}
-
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-}
-
-.text {
-  white-space: nowrap; 
-  color: #d0fff2;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
 span{
   margin:auto;
 }
 
-@media only screen and ( max-width: 800px) {
-  header nav {
+@media only screen and (max-width: 768px) {
+   header nav {
     display:none;
   }
   .dropdown{
