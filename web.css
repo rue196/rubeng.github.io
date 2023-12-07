@@ -18,6 +18,8 @@ header{
   display:none;
   width:fit-content;
   font-family: Georgia, 'Times New Roman', Times, serif;
+   align-items: center;
+  justify-content: center;
 }
 button#mybutton.dropbtn{
   top:30px;
@@ -32,11 +34,18 @@ ul{
   height:100%;
   display:flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 }
 ul li{
   padding: 5px;
   margin-left: 10px;
+ 
+}
+#new{
+  color: #aaf0fb;
+  text-align: left;
+  text-shadow: #38355a;
+  font-size: 20px;
 }
 li{
   list-style-type: none;
@@ -71,7 +80,16 @@ li{
   border: radius 0.25rem;
   box-shadow: 0px 2px 5px 0px rgb(0,0,0,.1);
   text-shadow: 2px 2px #46355a;
-  width:100%;
+  width: max-content;
+}
+#myDropdown.dropdown-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  width: fit-content;
+   height: fit-content;
+   position: absolute;
+
 }
 button {
   font-weight: bold;
@@ -88,6 +106,10 @@ button {
   padding: 10px 20px;
   margin: 20px 10px;
   width:fit-content;
+}
+img {
+  display: block;
+  margin: auto;
 }
 
 .href{
@@ -128,6 +150,14 @@ a :hover{
   text-shadow: 1px 1px 3px #46355a; 
 
 
+}
+.text{
+  color: #aaf0fb;
+  text-align: center;
+  font-size: 30px;
+  font-family: Monaco;
+  text-shadow: 1px 1px 3px #46355a; 
+  margin: auto;
 }
 .images{
     margin:auto;
@@ -258,11 +288,11 @@ span{
   margin:auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 980px) {
    header nav {
     display:none;
   }
-  .dropdown{
+  .dropdown {
   display: block;
 }
 }
