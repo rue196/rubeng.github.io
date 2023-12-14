@@ -110,6 +110,9 @@ nav{
    height: fit-content;
    position: absolute;
   display: none;
+  background-color: #1966ff;
+  font-size: 35px;
+  box-sizing: 400px;
 }
 button {
   font-weight: bold;
