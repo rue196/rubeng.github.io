@@ -51,7 +51,7 @@ ul.mobile-menu{
   width: 100%;
 }
 ul li{
-  padding: 5px;
+  padding: 10px;
   margin: auto;
   display:flex;
   
@@ -231,21 +231,24 @@ body{
 
 h1{
     text-align: left;
-    color:rgba(171, 254, 255, 0.75);
+    color: #aaf0fb;
     text-shadow: 1px 1px #46355ad8;
     font-size: 45px;
     font-weight:100px;
     padding: 10px 20px;
     margin: 20px 10px;
 }
+a h1:hover{
+  color: #46355a;
+}
 #grad {
     background-image: repeating-linear-gradient  linear-gradient(#1966ff, #d0fff2);
 }
 .series {
-  text-align: center;
+  text-align: left;
   color:rgba(171, 254, 255, 0.75);
   text-shadow: 2px 2px #46355a;
-  font-size: 60px;
+  font-size: 30px;
   margin: 10px 40px;
   padding: 20px 20px 30px 10px;
   transition-duration: 2s;
@@ -433,6 +436,7 @@ li a:hover{
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-top: 40px;
 
 }
 
@@ -440,6 +444,7 @@ li a:hover{
   background-color: none;
   padding: 20px;
   border-radius: 10px;
+  
 }
 
 .grid-item img {
@@ -447,3 +452,9 @@ li a:hover{
   height: 100%;
   object-fit: scale-down;
 }
+h2 .series{
+  width: fit-content;
+  display:flex ;
+  justify-content: space-between;
+}
+
