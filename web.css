@@ -212,9 +212,7 @@ h1 a :hover{
     text-shadow: 2px 2px 3px #f9ffcf; 
     
 }
-*img{
-  padding-top: 50px;
-}
+
 body{
     background: linear-gradient(#1966ff, #d0fff2);
     padding: 10px 20px 1000px 20px;
@@ -417,16 +415,6 @@ p{
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
-}
-@media (max-width:980px) {
-  img#chaos {
-    display: none;
-  }
-}
-@media (max-width:980px) {
-  img#cha {
-    display: none;
-  }
 }
 h1 a:hover{
   color: #38355a;
