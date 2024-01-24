@@ -421,6 +421,9 @@ p{
     display: none;
   }
 }
+div{
+  padding-top: 20px;
+}
 @media (max-width:980px) {
   img#cha {
     display: none;
