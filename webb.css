@@ -1,0 +1,460 @@
+
+/*header part*/
+
+.Ruben-Uriel-Gutierrez {
+  color:rgb(165, 255, 240);
+  font-weight: 250px;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  pointer-events: auto;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.dropdown{
+  position:absolute;
+  display:none;
+  width:fit-content;
+  opacity: 1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button#mybutton.dropbtn{
+  top:30px;
+  left:0;
+  height:calc(100vh - 50px);
+  width:100%;
+  position: absolute;
+  
+}
+.mobile-menu {
+  display: block;
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: row-reverse;
+}
+
+ul{
+  list-style-type: none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0%;
+  width: fit-content;
+}
+ul.mobile-menu{
+  box-sizing: fit-content;
+  width: 100%;
+}
+ul li{
+  padding: 10px;
+  margin: auto;
+  display:flex;
+  
+}
+
+#new{
+  color: #aaf0fb;
+  text-align: left;
+  text-shadow: #38355a;
+  font-size: 20px;
+}
+li{
+  list-style-type: none;
+}
+nav{
+  margin-top: 40px;
+}
+.droptbtn{
+  text-decoration: none;
+  font-weight: bold;
+  color:rgb(165, 255, 240);
+  font-weight: 250px;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  background-color: #aaf0fb;
+  border: radius 0.25rem;
+  box-shadow: 0px 2px 5px 0px rgb(0,0,0,.1);
+}
+.link{
+  text-align: center;
+  color:#aaf0fb;
+  text-shadow:1px 1px#46355a;
+
+}
+.droptbtn :hover{
+  color:#46355a;
+}
+.dropdown-content{
+  text-align: left;
+  top:calc(100%+.5em);
+  background-color: hsl(from color h s l);
+  padding: 0.75em;
+  left: calc(100%+.5em);
+  border-radius: .25em;
+  transition-duration: 4ms;
+  border: radius 0.25rem;
+  box-shadow: 0px 2px 5px 0px rgb(0,0,0,.1);
+  text-shadow: 2px 2px #46355a;
+  width: 100%;
+  display:none;
+}
+#myDropdown.dropdown-content {
+   align-items: left;
+  width: 100%;
+  position: relative;
+  right: 30px;
+  width: fit-content;
+   height: fit-content;
+   position: absolute;
+  display: none;
+  background-color: #1966ff;
+  font-size: 35px;
+}
+button {
+  font-weight: bold;
+  color: #aaf0fb;
+  background-color:#1966ff8f;
+  text-shadow: 2px 2px 1px #35365acb;
+  font-size: 35px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin: auto;
+  color:rgb(165, 255, 240);
+  font-weight: 250px;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  width:fit-content;
+}
+ul.mobile-menu{
+  width: 100%;
+}
+
+/*general*/
+
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.href{
+    padding: 30px 20px;
+    Border: 10px 40px;
+    Margin: 10px 10px;
+    color:rgba(53, 195, 242, 0.712)
+}
+a {
+   text-decoration: none;
+  background:none;
+  color: #aaf0fb;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  padding:0;
+  transition-duration: 5ms;
+ block-size:auto;
+}
+h1 a :hover{
+  color: #46355a;
+}
+
+.navigation{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(104, 2, 2);
+}
+
+/* artist staement page */
+
+#passion{
+    color: #aaf0fb;
+    text-align: center;
+    font-size: 30px;
+    font-family: Monaco;  
+    padding: 50px 20px 100px 10px;
+    margin: auto;
+    border:30px 10px;
+    background: content-box ;
+  text-shadow: 1px 1px 3px #46355a; 
+
+
+}
+/* end of artist page */
+
+
+/*more general below */
+.text{
+  color: #aaf0fb;
+  text-align: center;
+  font-size: 30px;
+  font-family: Monaco;
+  text-shadow: 1px 1px 3px #46355a; 
+  margin: auto;
+}
+.images{
+    margin:auto;
+
+}
+#footer{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 20px;
+    color:rgb(0, 55, 193);
+    padding: 880px 30px 20px 30px;
+    margin: 10px 20px;
+    text-shadow: 2px 2px 3px #f9ffcf; 
+    
+}
+
+body{
+    background: linear-gradient(#1966ff, #d0fff2);
+    padding: 10px 20px 1000px 20px;
+
+    
+}
+/* new updated header*/
+
+.Ruben-Uriel-Gutierrez,h1 {
+  text-align: right;
+  color:rgb(10, 169, 222);
+  font-weight:100px;
+  padding: 10px 20px;
+  margin: 20px 10px;
+}
+
+h1{
+    text-align: left;
+    color: #aaf0fb;
+    text-shadow: 1px 1px #46355ad8;
+    font-size: 45px;
+    font-weight:100px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+}
+a h1:hover{
+  color: #46355a;
+}
+#grad {
+    background-image: repeating-linear-gradient  linear-gradient(#1966ff, #d0fff2);
+}
+.series {
+  text-align: left;
+  color:rgba(171, 254, 255, 0.75);
+  text-shadow: 2px 2px #46355a;
+  font-size: 30px;
+  margin: 10px 40px;
+  padding: 20px 20px 30px 10px;
+  transition-duration: 2s;
+}
+/*button*/
+svg >  .link:focus + .dropdown-content {
+  opacity: 1;
+
+}
+.dropdown:hover .dropdown-content {
+  display: block;}
+  
+  /*gallery*/
+
+  .photo-grid{
+    display:grid;
+    gap: 1rem;
+
+    grid-template-columns: (auto-fit,minmax(900px,1600px));
+    grid-auto-rows: 600px ;
+
+  }
+  .card-tall{
+    grid-row: span 1 / auto;
+  }
+  .card-wide{
+    grid-column: span 1 / auto;
+  }
+  /* end of photo gallery*/
+
+  /*more button*/
+
+  .dropbtn{
+    font-size: 35px;
+    border-radius: 8px;
+ transition-duration: 0.3s;
+ text-align: center;
+  }
+  .dropbtn:hover{
+   background-color: rgb(165, 255, 240);
+   color:#01205e;
+  }
+
+  /*works page*/
+
+  .series:hover{
+    color:#38355a;
+
+  }
+  /*webscroller*/
+
+  ::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar
+  {
+    width: 10px;
+    background-color: #0930a4;
+  }
+  
+  ::-webkit-scrollbar-thumb
+  {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+                       left bottom,
+                       left top,
+                       color-stop(0.44, rgb(117, 227, 255)),
+                       color-stop(0.72, rgb(73,125,189)),
+                       color-stop(0.86, rgb(32, 87, 255)));
+  } 
+span{
+  margin:auto;
+}
+
+/*phone nav*/
+@media only screen and (max-width: 980px) {
+   header nav {
+    display:none;
+  }
+  .dropdown {
+  display: block;
+}
+}
+.container {
+  cursor: pointer;
+  display: block;
+  height: fit-content;
+}
+svg {
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.active svg {
+  transform: rotate(90deg);
+}
+path {
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dasharray 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+path:nth-child(1) {
+  transform-origin: 36% 40%;
+}
+path:nth-child(2) {
+  stroke-dasharray: 29 299;
+}
+path:nth-child(3) {
+  transform-origin: 35% 63%;
+}
+path:nth-child(4) {
+  stroke-dasharray: 29 299;
+}
+path:nth-child(5) {
+  transform-origin: 61% 52%;
+}
+path:nth-child(6) {
+  transform-origin: 62% 52%;
+}
+.active path:nth-child(1) {
+  transform: translateX(9px) translateY(1px) rotate(45deg);
+}
+.active path:nth-child(2) {
+  stroke-dasharray: 225 299;
+  stroke-dashoffset: -72px;
+}
+.active path:nth-child(3) {
+  transform: translateX(9px) translateY(1px) rotate(-45deg);
+}
+.active path:nth-child(4) {
+  stroke-dasharray: 225 299;
+  stroke-dashoffset: -72px;
+}
+.active path:nth-child(5) {
+  transform: translateX(9px) translateY(1px) rotate(-45deg);
+}
+.active path:nth-child(6) {
+  transform: translateX(9px) translateY(1px) rotate(45deg);
+}
+p{
+  text-align: center;
+  color: #d0fff2;
+  text-shadow: 1px 1px #46355a;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.works2{
+  margin: auto;
+  text-align: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+@media (max-width:980px) {
+  img#chaos {
+    display: none;
+  }
+}
+@media (max-width:980px) {
+  img#cha {
+    display: none;
+  }
+}
+h1 a:hover{
+  color: #38355a;
+  
+}
+li a:hover{
+  color: #38355a;
+}
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 40px;
+
+}
+
+.grid-item {
+  background-color: none;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+h2 .series{
+  width: fit-content;
+  display:flex ;
+  justify-content: space-between;
+}
+
