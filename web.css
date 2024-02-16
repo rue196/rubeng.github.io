@@ -274,7 +274,7 @@ svg >  .link:focus + .dropdown-content {
   .photo-grid{
     display:grid;
     gap: 1rem;
-
+  display: flex;
     grid-template-columns: (auto-fit,minmax(900px,1600px));
     grid-auto-rows: 600px ;
 
