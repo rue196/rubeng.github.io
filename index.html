@@ -77,18 +77,23 @@
                <div class="slideshow-container">
 
                 <div class="mySlides fade">
-                  <div class="numbertext">1 / 2</div>
+                  <div class="numbertext">1 / 3</div>
                   <img src="IMG_5563.jpg" style="width:100%; ">
                   <div class="text"></div>
                 </div>
                 
                 <div class="mySlides fade">
-                  <div class="numbertext">2 / 2</div>
-                  <img src="IMG_5367.jpg" style="width:100%;">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="IMG_5367.jpg" style="width:100%; ">
                   <div class="text"></div>
                 </div>
                 
-               
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="" style="width:100%; ">
+                  <div class="text"></div>
+                </div>
+                
                 </div>
                
                <div style="display: none;">
@@ -97,13 +102,16 @@
           </div>
           
           <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d9ebc2ba784017ac986e91016/252cdc43a3c054aed1f5e5e18.js");
-             
-             let slideIndex = 0;
+              let slideIndex = 0;
 showSlides();
 
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {

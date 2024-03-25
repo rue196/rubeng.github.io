@@ -504,9 +504,6 @@ h2 .series{
   transition: background-color 0.6s ease;
 }
 
-.active {
-  background-color: rgb(32, 87, 255);
-}
 
 /* Fading animation */
 .fade {
@@ -523,3 +520,4 @@ h2 .series{
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
