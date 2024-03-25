@@ -505,7 +505,7 @@ h2 .series{
 }
 
 .active {
-  background-color: none;
+  background-color: rgb(32, 87, 255);
 }
 
 /* Fading animation */
