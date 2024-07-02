@@ -472,7 +472,9 @@ h2 .series{
   position: relative;
   margin: auto;
 }
-
+.disabled{
+  pointer-events: none;
+}
 
 
 
