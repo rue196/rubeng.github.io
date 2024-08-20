@@ -1,7 +1,7 @@
 /*header part*/
 
 .Ruben-Uriel-Gutierrez {
-    color:#19e0ff;
+    color: #0930a4;
     font-weight: 250px;
     padding: 10px 20px;
     margin: 20px 10px;
@@ -81,8 +81,8 @@
   }
   .link{
     text-align: center;
-    color:#aaf0fb;
-    text-shadow:1px 1px#46355a;
+    color: #f9ffcf;
+    font-family: Arial, Helvetica, sans-serif;
   
   }
   .droptbtn :hover{
@@ -111,7 +111,7 @@
      height: fit-content;
      position: absolute;
     display: none;
-    background-color: #1966ff;
+    background-color:#46355a; 
     font-size: 35px;
   }
   button {
@@ -147,8 +147,10 @@
   
   img {
     display: block;
-    margin: auto;
-    border-radius: 4px;
+    margin: 2em,2em;
+    width: 100%;
+    height:auto;
+    
   }
   
   .href{
@@ -160,7 +162,7 @@
   a {
      text-decoration: none;
     background:none;
-    color: #aaf0fb;
+    color: #01205e;
     font-family: inherit;
     font-size: inherit;
     cursor: pointer;
@@ -221,7 +223,8 @@
   }
   
   body{
-      background:(#f0aed3);
+      color: #38355a;
+      background-color: antiquewhite;
       padding: 10px 20px 1000px 20px;
   
       
@@ -230,7 +233,7 @@
   
   .Ruben-Uriel-Gutierrez,h1 {
     text-align: right;
-    color:rgb(10, 169, 222);
+    color: #38355a;
     font-weight:100px;
     padding: 10px 20px;
     margin: 20px 10px;
@@ -238,8 +241,8 @@
   
   h1{
       text-align: left;
-      color: #aaf0fb;
-      text-shadow: 1px 1px #46355ad8;
+      color: #46355a;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 45px;
       font-weight:100px;
       padding: 10px 20px;
@@ -273,9 +276,10 @@
     .photo-grid{
       display:grid;
       gap: 1rem;
-    display: flex;
-      grid-template-columns: (auto-fit,minmax(900px,1600px));
-      grid-auto-rows: 600px ;
+      display: flex;
+      grid-template-columns: (auto-fit,minmax(600px,1600px));
+      grid-auto-rows: 200px ;
+      margin: auto;
   
     }
     .card-tall{
@@ -316,18 +320,13 @@
     ::-webkit-scrollbar
     {
       width: 10px;
-      background-color: #0930a4;
+      background-color: #f9ffcf;
     }
     
     ::-webkit-scrollbar-thumb
     {
       border-radius: 10px;
-      background-image: -webkit-gradient(linear,
-                         left bottom,
-                         left top,
-                         color-stop(0.44, rgb(117, 227, 255)),
-                         color-stop(0.72, rgb(73,125,189)),
-                         color-stop(0.86, rgb(32, 87, 255)));
+      background-color:#46355a; 
     } 
   span{
     margin:auto;
@@ -425,17 +424,7 @@
     grid-row-start: 1;
     grid-row-end: 3;
   }
-  @media (max-width:980px) {
-    img#chaos {
-      display: none;
-    }
-  }
-  
-  @media (max-width:980px) {
-    img#cha {
-      display: none;
-    }
-  }
+
   h1 a:hover{
     color: #38355a;
     
@@ -446,7 +435,7 @@
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 40px;
+    padding-top: 2em;
   
   }
   
@@ -454,12 +443,13 @@
     background-color: none;
     padding: 20px;
     border-radius: 10px;
+    margin: 3em,2em   ;
     
   }
   
   .grid-item img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: scale-down;
   }
   h2 .series{
@@ -489,19 +479,24 @@
     color: #38355a;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
-    margin-top: 2.5em;
+    margin-top: 1em;
     margin-right: 3rem;
   }
   .arct{
     margin: 2em, 1em;
     position:static;
-    max-width: 5em;
+    
   }
- ul li .arca{
+ ul li.arca{
   font-family: Arial, Helvetica, sans-serif;
+  color: #38355a;
   font-size: 40px;
   text-align: left;
   margin-top: 2.5em;
   margin-right: 3rem;
  }
-  
+.link2{
+  text-align: center;
+  color: #46355a;
+  font-family: Arial, Helvetica, sans-serif;
+}
